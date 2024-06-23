@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="components.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/Study/Java/Workspace/TutorialsNinjaWebApplication">
+
+        <classes>
+            <class name="tests.RegisterTest"></class>
+            <class name="tests.LoginTest"></class>
+
+        </classes>
+    </test>
+</suite>
